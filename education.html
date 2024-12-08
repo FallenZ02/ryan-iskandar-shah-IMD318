@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Education</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #edf2f4;
+        }
+        header {
+            background-color: #2b2d42;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+        }
+        .education-section {
+            border: 2px solid #2b2d42;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .education-section h2 {
+            color: #2b2d42;
+            margin-bottom: 10px;
+        }
+        .gallery {
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .gallery img {
+            width: calc(33.333% - 10px);
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .homepage-link {
+            display: inline-block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #2b2d42;
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            border-radius: 5px;
+            text-align: center;
+            transition: background-color 0.3s;
+        }
+        .homepage-link:hover {
+            background-color: #8d99ae;
+        }
+        footer {
+            background-color: #8d99ae;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Education</h1>
+    </header>
+    <main>
+        <!-- Primary School Section -->
+        <div class="education-section">
+            <h2>Sekolah Kebangsaan Batang Benar</h2>
+            <div class="gallery">
+                <img src="sk1.jpg" alt="Primary School Image 1">
+                <img src="sk2.jpg" alt="Primary School Image 2">
+                <img src="sk3.jpg" alt="Primary School Image 3">
+            </div>
+        </div>
+        <!-- Secondary School Section -->
+        <div class="education-section">
+            <h2>Secondary School : Sekolah Menengah Sains Tuanku Jaafar</h2>
+            <div class="gallery">
+                <img src="stj1.png" alt="Secondary School Image 1">
+                <img src="stj2.jpg" alt="Secondary School Image 2">
+                <img src="stj3.jpg" alt="Secondary School Image 3">
+            </div>
+        </div>
+        <!-- University Section -->
+        <div class="education-section">
+            <h2>University : Universiti Teknologi MARA</h2>
+            <div class="gallery">
+                <img src="uitm1.png" alt="University Image 1">
+                <img src="uitm2.jpg" alt="University Image 2">
+                <img src="uitm3.jpg" alt="University Image 3">
+            </div>
+        </div>
+        <!-- Back to homepage button -->
+        <a href="homepagefr.html" class="homepage-link">Back to my homepage</a>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Education</p>
+    </footer>
+</body>
+</html>

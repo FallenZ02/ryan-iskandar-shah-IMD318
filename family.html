@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Family Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #edf2f4;
+        }
+        header {
+            background-color: #2b2d42;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+        }
+        .gallery-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .gallery-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 10px;
+        }
+        .gallery-item p {
+            text-align: center;
+            font-size: 14px;
+            color: #2b2d42;
+        }
+        .homepage-link {
+            display: inline-block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #2b2d42;
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            border-radius: 5px;
+            text-align: center;
+            transition: background-color 0.3s;
+        }
+        .homepage-link:hover {
+            background-color: #8d99ae;
+        }
+        footer {
+            background-color: #8d99ae;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Family Gallery</h1>
+    </header>
+    <main>
+        <div class="gallery-container">
+            <!-- Family Member 1 -->
+            <div class="gallery-item">
+                <img src="fm1.jpg" alt="Family Member 1">
+                <p>My full family</p>
+            </div>
+            <!-- Family Member 2 -->
+            <div class="gallery-item">
+                <img src="fm2.jpg" alt="Family Member 2">
+                <p>My grandmother</p>
+            </div>
+            <!-- Family Member 3 -->
+            <div class="gallery-item">
+                <img src="fm3.jpg" alt="Family Member 3">
+                <p>My little boy and girl</p>
+            </div>
+            <!-- Family Member 4 -->
+            <div class="gallery-item">
+                <img src="fm4.jpg" alt="Family Member 4">
+                <p>My weird friend but sweet uwu</p>
+            </div>
+            <!-- Family Member 5 -->
+            <div class="gallery-item">
+                <img src="fm5.jpg" alt="Family Member 5">
+                <p>My junglemate (housemate)</p>
+            </div>
+            <!-- Family Member 6 -->
+            <div class="gallery-item">
+                <img src="fm6.jpg" alt="Family Member 6">
+                <p>My groupmate (always give me brain damage)</p>
+            </div>
+        </div>
+
+        <!-- Back to homepage button -->
+        <a href="homepagefr.html" class="homepage-link">Back to my homepage</a>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Family Gallery</p>
+    </footer>
+</body>
+</html>
